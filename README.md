@@ -12,7 +12,7 @@
   <a href="https://github.com/srkyn/undertaker"><img alt="Undertaker release" src="https://img.shields.io/github/v/release/srkyn/undertaker?style=flat-square&label=undertaker"></a>
   <a href="https://github.com/srkyn/undertaker/actions/workflows/ci.yml"><img alt="Undertaker CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/undertaker/ci.yml?branch=main&style=flat-square&label=ci"></a>
   <a href="https://github.com/srkyn/browser-bailiff"><img alt="Browser Bailiff release" src="https://img.shields.io/github/v/release/srkyn/browser-bailiff?style=flat-square&label=browser-bailiff"></a>
-  <a href="https://github.com/srkyn/undertaker"><img alt="Python" src="https://img.shields.io/badge/python-security_automation-1f6feb?style=flat-square"></a>
+  <a href="https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml"><img alt="Browser Bailiff CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci"></a>
 </p>
 
 ## About
