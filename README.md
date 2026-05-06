@@ -51,4 +51,4 @@ Most people don't know what their browser extensions can actually do. Browser Ba
 
 ## Contact
 
-Open an issue on any of the repos, or reach out through the contact link on my profile.
+Open an issue on any of the repos above, or email [excyted@gmail.com](mailto:excyted@gmail.com).
