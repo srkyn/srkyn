@@ -5,7 +5,7 @@
 <h1 align="center">David</h1>
 
 <p align="center">
-  Security work grounded in real IT environments — endpoints, infrastructure, and the automation that quietly keeps running after everyone forgets it's there.
+  Cybersecurity analyst work with a bias toward evidence, calm investigation, and defensive tools people can actually run.
 </p>
 
 <p align="center">
@@ -17,44 +17,46 @@
 
 ## About
 
-My background is healthcare, lab environments, and systems administration — managing endpoints, identity, and infrastructure in places where a wrong move costs real time and vague troubleshooting gets expensive. That shaped how I approach security: understand what's actually running, reduce noise, and document what changed and why.
+I am focused on security operations, IAM, endpoint security, vulnerability management, and Splunk-driven investigation.
 
-I came into security from the sysadmin side. Windows and macOS endpoints, Entra ID, Active Directory, networking, and PowerShell are where I spend most of my time, and I tend to care more about what's real on a given machine than what's theoretically possible.
+My path into security started with curiosity about hidden systems: how networks route, how identities get exposed, how tools behave under pressure, and how small technical details create real impact. Embryology trained the other half of it: time-sensitive work, strict protocols, sensitive data, and staying useful when there is no room to panic.
 
-Public work here is defensive tooling. I write documentation that someone else can actually use without having to read my mind.
+The projects here are defensive. They look for neglected risk in the places operators actually touch: scheduled tasks, browser extensions, Entra ID devices, Active Directory objects, and a live OPNsense home firewall.
+
+I prefer small tools with clear output over big claims. If a finding cannot be explained, reviewed, and acted on, it is just noise with a nicer label.
 
 ## Featured Work
 
 ### Home Network Security
 
-Live OPNsense firewall project documenting a personal network security perimeter: WAN/LAN firewalling, DNSSEC, DNS-over-TLS, DNS-bypass prevention, CrowdSec blocking, traffic-shaping work, private administration, and recurring validation checks. The repository is intentionally sanitized so it shows defensive engineering judgment without exposing live network details.
+A sanitized writeup of my live OPNsense firewall setup: WAN/LAN policy, DNSSEC, Quad9 DNS-over-TLS, DNS-bypass blocking, CrowdSec, DHCP, traffic-shaping work, and the reasoning behind each control.
 
-[View project](https://github.com/srkyn/home-network-security)
-
-### relic
-
-Active Directory environments accumulate objects nobody is managing — disabled accounts still holding group memberships, service accounts with SPNs and multi-year-old passwords, computer objects for machines that no longer exist. relic connects to a domain controller over LDAP and surfaces them: what's there, how old it is, and what risk it carries.
-
-[View project](https://github.com/srkyn/relic) · [Latest release](https://github.com/srkyn/relic/releases/latest)
-
-### lapse
-
-Entra ID directories fill with ghost devices — VDI re-registrations, offboarded laptops, ex-employee phones. The built-in activity timestamp includes background sync traffic, so naive filters produce hundreds of false positives. lapse cross-references it against actual interactive sign-in logs and gives you a short, trustworthy list of devices you can actually act on.
-
-[View project](https://github.com/srkyn/lapse) · [Latest release](https://github.com/srkyn/lapse/releases/latest)
+[View project](https://github.com/srkyn/home-network-security) | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md)
 
 ### Undertaker
 
-Scheduled jobs are easy to forget. A task created for a one-time fix keeps running for years, often as root or SYSTEM. Undertaker scans cron, systemd timers, and Windows Scheduled Tasks, flags anything that's old, privileged, or both, and gives you a review table. Nothing gets changed — you decide what to close.
+Scheduled jobs are easy to forget and often run with more privilege than people remember. Undertaker scans Linux cron, systemd timers, and Windows Scheduled Tasks, then shows what is old, privileged, or both.
 
-[View project](https://github.com/srkyn/undertaker) · [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) · [Latest release](https://github.com/srkyn/undertaker/releases/latest)
+[View project](https://github.com/srkyn/undertaker) | [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) | [Latest release](https://github.com/srkyn/undertaker/releases/latest)
 
 ### Browser Bailiff
 
-Most people don't know what their browser extensions can actually do. Browser Bailiff reads the manifests directly and tells you which extensions can see every page you visit, which ones intercept requests, and which ones have been sitting there for over a year. Sorted by risk, ready to review.
+Browser extensions sit close to sensitive user activity. Browser Bailiff reads installed extension manifests and highlights broad host access, risky permissions, age, and review reasons.
 
-[View project](https://github.com/srkyn/browser-bailiff) · [Latest release](https://github.com/srkyn/browser-bailiff/releases/latest)
+[View project](https://github.com/srkyn/browser-bailiff) | [Latest release](https://github.com/srkyn/browser-bailiff/releases/latest)
+
+### lapse
+
+Entra ID can keep device objects long after the device is no longer meaningful. lapse cross-checks device timestamps against interactive sign-in evidence so stale device review is less guessy.
+
+[View project](https://github.com/srkyn/lapse) | [Latest release](https://github.com/srkyn/lapse/releases/latest)
+
+### relic
+
+Active Directory accumulates leftovers: disabled users with group memberships, service accounts with old passwords, and computer objects nobody owns. relic surfaces those objects for review over LDAP.
+
+[View project](https://github.com/srkyn/relic) | [Latest release](https://github.com/srkyn/relic/releases/latest)
 
 ## Contact
 
-Open an issue on any of the repos above, or email [excyted@gmail.com](mailto:excyted@gmail.com).
+LinkedIn: [linkedin.com/in/srkyn](https://www.linkedin.com/in/srkyn/)
