@@ -13,6 +13,8 @@
   <a href="https://github.com/srkyn/undertaker/actions/workflows/ci.yml"><img alt="Undertaker CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/undertaker/ci.yml?branch=main&style=flat-square&label=ci"></a>
   <a href="https://github.com/srkyn/browser-bailiff"><img alt="Browser Bailiff release" src="https://img.shields.io/github/v/release/srkyn/browser-bailiff?style=flat-square&label=browser-bailiff"></a>
   <a href="https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml"><img alt="Browser Bailiff CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci"></a>
+  <a href="https://github.com/srkyn/lapse"><img alt="lapse release" src="https://img.shields.io/github/v/release/srkyn/lapse?style=flat-square&label=lapse"></a>
+  <a href="https://github.com/srkyn/lapse/actions/workflows/ci.yml"><img alt="lapse CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/lapse/ci.yml?branch=main&style=flat-square&label=lapse+ci"></a>
 </p>
 
 ## About
@@ -24,6 +26,12 @@ Day-to-day I work with Windows and macOS endpoints, identity and access, network
 Public work here stays focused on defensive tooling and authorized testing. I write documentation that someone else can actually use without having to read my mind.
 
 ## Featured Work
+
+### lapse
+
+Python audit tool for identifying stale Entra ID device objects using dual-signal detection. Cross-references `approximateLastSignInDateTime` with interactive sign-in logs to eliminate false positives from background sync traffic. Supports disable, delete, and dry-run modes with JSON and CSV output.
+
+[View project](https://github.com/srkyn/lapse) · [Latest release](https://github.com/srkyn/lapse/releases/latest)
 
 ### Undertaker
 
