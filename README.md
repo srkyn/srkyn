@@ -27,7 +27,7 @@ Public work here is defensive tooling. I write documentation that someone else c
 
 ### Home Network Security
 
-Live OPNsense firewall project documenting a personal network security perimeter: segmentation, DNS security, IDS/IPS review, private administration, and recurring validation checks. The repository is intentionally sanitized so it shows defensive engineering judgment without exposing live network details.
+Live OPNsense firewall project documenting a personal network security perimeter: WAN/LAN firewalling, DNSSEC, DNS-over-TLS, DNS-bypass prevention, CrowdSec blocking, traffic-shaping work, private administration, and recurring validation checks. The repository is intentionally sanitized so it shows defensive engineering judgment without exposing live network details.
 
 [View project](https://github.com/srkyn/home-network-security)
 
