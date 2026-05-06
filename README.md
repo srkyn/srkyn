@@ -12,17 +12,24 @@
   <a href="https://github.com/srkyn/undertaker/actions/workflows/ci.yml"><img alt="undertaker CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/undertaker/ci.yml?branch=main&style=flat-square&label=undertaker+ci"></a>
   <a href="https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml"><img alt="browser-bailiff CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci"></a>
   <a href="https://github.com/srkyn/lapse/actions/workflows/ci.yml"><img alt="lapse CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/lapse/ci.yml?branch=main&style=flat-square&label=lapse+ci"></a>
+  <a href="https://github.com/srkyn/relic/actions/workflows/ci.yml"><img alt="relic CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/relic/ci.yml?branch=main&style=flat-square&label=relic+ci"></a>
 </p>
 
 ## About
 
 My background is healthcare, lab environments, and systems administration — managing endpoints, identity, and infrastructure in places where a wrong move costs real time and vague troubleshooting gets expensive. That shaped how I approach security: understand what's actually running, reduce noise, and document what changed and why.
 
-I came into security from the sysadmin side. Windows and macOS endpoints, Entra ID, networking, and PowerShell are where I spend most of my time, and I tend to care more about what's real on a given machine than what's theoretically possible.
+I came into security from the sysadmin side. Windows and macOS endpoints, Entra ID, Active Directory, networking, and PowerShell are where I spend most of my time, and I tend to care more about what's real on a given machine than what's theoretically possible.
 
 Public work here is defensive tooling. I write documentation that someone else can actually use without having to read my mind.
 
 ## Featured Work
+
+### relic
+
+Active Directory environments accumulate objects nobody is managing — disabled accounts still holding group memberships, service accounts with SPNs and multi-year-old passwords, computer objects for machines that no longer exist. relic connects to a domain controller over LDAP and surfaces them: what's there, how old it is, and what risk it carries.
+
+[View project](https://github.com/srkyn/relic) · [Latest release](https://github.com/srkyn/relic/releases/latest)
 
 ### lapse
 
