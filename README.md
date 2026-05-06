@@ -9,42 +9,39 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/srkyn/undertaker"><img alt="Undertaker release" src="https://img.shields.io/github/v/release/srkyn/undertaker?style=flat-square&label=undertaker"></a>
-  <a href="https://github.com/srkyn/undertaker/actions/workflows/ci.yml"><img alt="Undertaker CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/undertaker/ci.yml?branch=main&style=flat-square&label=ci"></a>
-  <a href="https://github.com/srkyn/browser-bailiff"><img alt="Browser Bailiff release" src="https://img.shields.io/github/v/release/srkyn/browser-bailiff?style=flat-square&label=browser-bailiff"></a>
-  <a href="https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml"><img alt="Browser Bailiff CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci"></a>
-  <a href="https://github.com/srkyn/lapse"><img alt="lapse release" src="https://img.shields.io/github/v/release/srkyn/lapse?style=flat-square&label=lapse"></a>
+  <a href="https://github.com/srkyn/undertaker/actions/workflows/ci.yml"><img alt="undertaker CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/undertaker/ci.yml?branch=main&style=flat-square&label=undertaker+ci"></a>
+  <a href="https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml"><img alt="browser-bailiff CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci"></a>
   <a href="https://github.com/srkyn/lapse/actions/workflows/ci.yml"><img alt="lapse CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/lapse/ci.yml?branch=main&style=flat-square&label=lapse+ci"></a>
 </p>
 
 ## About
 
-My background is healthcare, lab environments, IT support, and infrastructure — places where a wrong move costs real time and vague troubleshooting gets expensive. That shaped how I think about security: understand what's actually running, reduce noise, and document what changed and why.
+My background is healthcare, lab environments, and systems administration — managing endpoints, identity, and infrastructure in places where a wrong move costs real time and vague troubleshooting gets expensive. That shaped how I approach security: understand what's actually running, reduce noise, and document what changed and why.
 
-Day-to-day I work with Windows and macOS endpoints, identity and access, networking, and PowerShell. I came into security from the operational side, so I tend to care more about what's real on a given machine than what's theoretically possible.
+I came into security from the sysadmin side. Windows and macOS endpoints, Entra ID, networking, and PowerShell are where I spend most of my time, and I tend to care more about what's real on a given machine than what's theoretically possible.
 
-Public work here stays focused on defensive tooling and authorized testing. I write documentation that someone else can actually use without having to read my mind.
+Public work here is defensive tooling. I write documentation that someone else can actually use without having to read my mind.
 
 ## Featured Work
 
 ### lapse
 
-Python audit tool for identifying stale Entra ID device objects using dual-signal detection. Cross-references `approximateLastSignInDateTime` with interactive sign-in logs to eliminate false positives from background sync traffic. Supports disable, delete, and dry-run modes with JSON and CSV output.
+Entra ID directories fill with ghost devices — VDI re-registrations, offboarded laptops, ex-employee phones. The built-in activity timestamp includes background sync traffic, so naive filters produce hundreds of false positives. lapse cross-references it against actual interactive sign-in logs and gives you a short, trustworthy list of devices you can actually act on.
 
 [View project](https://github.com/srkyn/lapse) · [Latest release](https://github.com/srkyn/lapse/releases/latest)
 
 ### Undertaker
 
-Python audit tool for finding old and high-privilege scheduled automation across Linux cron, systemd timers, and Windows Scheduled Tasks. Read-only, table output, JSON reporting, tests, and CI.
+Scheduled jobs are easy to forget. A task created for a one-time fix keeps running for years, often as root or SYSTEM. Undertaker scans cron, systemd timers, and Windows Scheduled Tasks, flags anything that's old, privileged, or both, and gives you a review table. Nothing gets changed — you decide what to close.
 
 [View project](https://github.com/srkyn/undertaker) · [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) · [Latest release](https://github.com/srkyn/undertaker/releases/latest)
 
 ### Browser Bailiff
 
-Python audit tool for reviewing installed Chrome, Edge, and Firefox extensions. Parses manifests, flags risky or stale permissions, and sorts findings by risk and age.
+Most people don't know what their browser extensions can actually do. Browser Bailiff reads the manifests directly and tells you which extensions can see every page you visit, which ones intercept requests, and which ones have been sitting there for over a year. Sorted by risk, ready to review.
 
 [View project](https://github.com/srkyn/browser-bailiff) · [Latest release](https://github.com/srkyn/browser-bailiff/releases/latest)
 
 ## Contact
 
-Reach out through the contact link on my GitHub profile. The repos are the best starting point for context.
+Open an issue on any of the repos, or reach out through the contact link on my profile.
