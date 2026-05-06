@@ -25,6 +25,12 @@ Public work here is defensive tooling. I write documentation that someone else c
 
 ## Featured Work
 
+### Home Network Security
+
+Live OPNsense firewall project documenting a personal network security perimeter: segmentation, DNS security, IDS/IPS review, private administration, and recurring validation checks. The repository is intentionally sanitized so it shows defensive engineering judgment without exposing live network details.
+
+[View project](https://github.com/srkyn/home-network-security)
+
 ### relic
 
 Active Directory environments accumulate objects nobody is managing — disabled accounts still holding group memberships, service accounts with SPNs and multi-year-old passwords, computer objects for machines that no longer exist. relic connects to a domain controller over LDAP and surfaces them: what's there, how old it is, and what risk it carries.
