@@ -27,6 +27,12 @@ I prefer small tools with clear output over big claims. If a finding cannot be e
 
 ## Featured Work
 
+### Splunk Detection Content
+
+SPL detections mapped to MITRE ATT&CK for Windows, Active Directory, Sysmon, PowerShell, and SOC triage workflows. Each detection includes data-source assumptions, tuning notes, and analyst next steps.
+
+[View project](https://github.com/srkyn/splunk-detection-content)
+
 ### Home Network Security
 
 A sanitized writeup of my live OPNsense firewall setup: WAN/LAN policy, DNSSEC, Quad9 DNS-over-TLS, DNS-bypass blocking, CrowdSec, DHCP, traffic-shaping work, and the reasoning behind each control.
