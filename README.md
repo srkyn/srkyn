@@ -5,7 +5,7 @@
 <h1 align="center">David Sarkisyan</h1>
 
 <p align="center">
-  Brooklyn-based cybersecurity analyst work with a bias toward evidence, calm investigation, and defensive tools people can actually run.
+  Brooklyn-based cybersecurity analyst focused on evidence, calm investigation, and defensive tools people can actually run.
 </p>
 
 <p align="center">
