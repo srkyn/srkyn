@@ -2,10 +2,10 @@
   <img src="./assets/security-profile-banner.svg" alt="David Sarkisyan cybersecurity profile banner" width="100%">
 </p>
 
-<h1 align="center">David</h1>
+<h1 align="center">David Sarkisyan</h1>
 
 <p align="center">
-  Cybersecurity analyst work with a bias toward evidence, calm investigation, and defensive tools people can actually run.
+  Brooklyn-based cybersecurity analyst work with a bias toward evidence, calm investigation, and defensive tools people can actually run.
 </p>
 
 <p align="center">
@@ -69,7 +69,7 @@ SPL detections mapped to MITRE ATT&CK for Windows, Active Directory, Sysmon, Pow
 
 ### CuteBlock
 
-A playful Manifest V3 extension with a privacy-conscious default: replace likely ad slots with bundled animal images, preserve page layout, and avoid external image requests during normal use.
+A Manifest V3 extension with a privacy-conscious default: replace likely ad slots with bundled local images, preserve page layout, and avoid external image requests during normal use.
 
 [View project](https://github.com/srkyn/CuteBlock)
 
