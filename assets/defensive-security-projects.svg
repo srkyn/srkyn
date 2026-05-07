@@ -1,0 +1,70 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Defensive Security Projects thumbnail</title>
+  <desc id="desc">Minimal Brooklyn-inspired cybersecurity portfolio thumbnail with terminal, signal lines, and defensive tooling focus.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06070a"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#12100d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="88" y1="96" x2="1110" y2="508" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5c542"/>
+      <stop offset="0.46" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="tile" width="56" height="56" patternUnits="userSpaceOnUse">
+      <rect width="56" height="56" fill="#06070a"/>
+      <path d="M0 55H56M55 0V56" stroke="#ffffff" stroke-opacity="0.032"/>
+      <path d="M0 28H56" stroke="#38bdf8" stroke-opacity="0.018"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#tile)" opacity="0.5"/>
+
+  <g opacity="0.18" fill="none" stroke="#f7f3e8" stroke-width="2">
+    <path d="M130 470C265 398 396 352 543 337C714 319 866 344 1058 258"/>
+    <path d="M150 506C311 438 459 398 628 391C802 384 948 414 1082 354"/>
+    <path d="M850 116L1014 278"/>
+    <path d="M892 86L1056 248"/>
+    <path d="M936 62L1100 224"/>
+  </g>
+
+  <g transform="translate(84 83)">
+    <text x="0" y="0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="7" fill="#38bdf8">BROOKLYN TOOLBOX</text>
+    <text x="0" y="88" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="900" fill="#f7f3e8">Defensive</text>
+    <text x="0" y="151" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900" fill="#f7f3e8">Security Projects</text>
+    <rect x="0" y="184" width="460" height="3" fill="url(#accent)"/>
+    <text x="0" y="238" font-family="Inter, Arial, sans-serif" font-size="29" fill="#cbd5d9">Splunk · IAM · Endpoint Security</text>
+    <text x="0" y="283" font-family="Inter, Arial, sans-serif" font-size="29" fill="#cbd5d9">Python · PowerShell · Network Defense</text>
+  </g>
+
+  <g transform="translate(688 133)" filter="url(#glow)">
+    <rect x="0" y="0" width="390" height="284" rx="18" fill="#05070b" stroke="#263648" stroke-width="2"/>
+    <rect x="0" y="0" width="390" height="43" rx="18" fill="#101820"/>
+    <rect x="0" y="24" width="390" height="19" fill="#101820"/>
+    <circle cx="28" cy="22" r="6" fill="#ef4444"/>
+    <circle cx="51" cy="22" r="6" fill="#f59e0b"/>
+    <circle cx="74" cy="22" r="6" fill="#22c55e"/>
+    <text x="28" y="86" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#38bdf8">$ investigate --signal</text>
+    <text x="28" y="128" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#f7f3e8">auth anomalies</text>
+    <text x="28" y="166" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#f7f3e8">endpoint persistence</text>
+    <text x="28" y="204" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#f7f3e8">scheduled task risk</text>
+    <rect x="28" y="229" width="308" height="2" fill="url(#accent)"/>
+    <rect x="28" y="248" width="13" height="23" rx="2" fill="#f5c542"/>
+  </g>
+
+  <g transform="translate(84 514)">
+    <path d="M0 0H320" stroke="#f5c542" stroke-width="5"/>
+    <path d="M348 0H512" stroke="#f97316" stroke-width="5"/>
+    <path d="M540 0H710" stroke="#38bdf8" stroke-width="5"/>
+    <text x="0" y="42" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="3" fill="#f7f3e8">QUIET SIGNALS · CLEAN CONTROLS · REAL WORK</text>
+  </g>
+</svg>
