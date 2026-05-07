@@ -27,15 +27,9 @@ I prefer small tools with clear output over big claims. If a finding cannot be e
 
 ## Featured Work
 
-### Splunk Detection Content
-
-SPL detections mapped to MITRE ATT&CK for Windows, Active Directory, Sysmon, PowerShell, and SOC triage workflows. Each detection includes data-source assumptions, tuning notes, and analyst next steps.
-
-[View project](https://github.com/srkyn/splunk-detection-content)
-
 ### Home Network Security
 
-A sanitized writeup of my live OPNsense firewall setup: WAN/LAN policy, DNSSEC, Quad9 DNS-over-TLS, DNS-bypass blocking, CrowdSec, DHCP, traffic-shaping work, and the reasoning behind each control.
+A sanitized writeup of my live OPNsense firewall setup: WAN/LAN policy, DNSSEC, Quad9 DNS-over-TLS, DNS-bypass blocking, CrowdSec, DHCP/local DNS, current-state notes, and the reasoning behind each control.
 
 [View project](https://github.com/srkyn/home-network-security) | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md)
 
@@ -51,12 +45,6 @@ Browser extensions sit close to sensitive user activity. Browser Bailiff reads i
 
 [View project](https://github.com/srkyn/browser-bailiff) | [Latest release](https://github.com/srkyn/browser-bailiff/releases/latest)
 
-### CuteBlock
-
-A playful Manifest V3 extension with a privacy-conscious default: replace likely ad slots with bundled animal images, preserve page layout, and avoid external image requests during normal use.
-
-[View project](https://github.com/srkyn/CuteBlock)
-
 ### lapse
 
 Entra ID can keep device objects long after the device is no longer meaningful. lapse cross-checks device timestamps against interactive sign-in evidence so stale device review is less guessy.
@@ -68,6 +56,22 @@ Entra ID can keep device objects long after the device is no longer meaningful. 
 Active Directory accumulates leftovers: disabled users with group memberships, service accounts with old passwords, and computer objects nobody owns. relic surfaces those objects for review over LDAP.
 
 [View project](https://github.com/srkyn/relic) | [Latest release](https://github.com/srkyn/relic/releases/latest)
+
+## In Progress
+
+### Splunk Detection Content
+
+SPL detections mapped to MITRE ATT&CK for Windows, Active Directory, Sysmon, PowerShell, and SOC triage workflows. This is being built into a more usable detection notebook with clearer examples, tuning paths, and analyst pivots.
+
+[View project](https://github.com/srkyn/splunk-detection-content)
+
+## Side Project
+
+### CuteBlock
+
+A playful Manifest V3 extension with a privacy-conscious default: replace likely ad slots with bundled animal images, preserve page layout, and avoid external image requests during normal use.
+
+[View project](https://github.com/srkyn/CuteBlock)
 
 ## Contact
 
