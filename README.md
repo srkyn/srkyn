@@ -51,6 +51,12 @@ Browser extensions sit close to sensitive user activity. Browser Bailiff reads i
 
 [View project](https://github.com/srkyn/browser-bailiff) | [Latest release](https://github.com/srkyn/browser-bailiff/releases/latest)
 
+### CuteBlock
+
+A playful Manifest V3 extension with a privacy-conscious default: replace likely ad slots with bundled animal images, preserve page layout, and avoid external image requests during normal use.
+
+[View project](https://github.com/srkyn/CuteBlock)
+
 ### lapse
 
 Entra ID can keep device objects long after the device is no longer meaningful. lapse cross-checks device timestamps against interactive sign-in evidence so stale device review is less guessy.
