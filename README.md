@@ -5,7 +5,7 @@
 <h1 align="center">David Sarkisyan</h1>
 
 <p align="center">
-  Brooklyn-based cybersecurity analyst focused on evidence, calm investigation, and defensive tools people can actually run.
+  Brooklyn-based cybersecurity analyst focused on evidence, defensive operations, and tools people can actually run.
 </p>
 
 <p align="center">
@@ -19,11 +19,11 @@
 
 I am focused on security operations, IAM, endpoint security, vulnerability management, and Splunk-driven investigation.
 
-My path into security started with curiosity about hidden systems: how networks route, how identities get exposed, how tools behave under pressure, and how small technical details create real impact. Embryology trained the other half of it: time-sensitive work, strict protocols, sensitive data, and staying useful when there is no room to panic.
+My path into security started with practical systems work: how networks route, how identities get exposed, how tools behave under pressure, and how small technical details create real impact. Embryology trained the other half of it: time-sensitive work, strict protocols, sensitive data, and staying useful when accuracy matters.
 
 The projects here are defensive. They look for neglected risk in the places operators actually touch: scheduled tasks, browser extensions, Entra ID devices, Active Directory objects, and a live OPNsense home firewall.
 
-I prefer small tools with clear output over big claims. If a finding cannot be explained, reviewed, and acted on, it is just noise with a nicer label.
+I prefer small tools with clear output over big claims. If a finding cannot be explained, reviewed, and acted on, it adds noise instead of value.
 
 ## Featured Work
 
@@ -47,7 +47,7 @@ Browser extensions sit close to sensitive user activity. Browser Bailiff reads i
 
 ### lapse
 
-Entra ID can keep device objects long after the device is no longer meaningful. lapse cross-checks device timestamps against interactive sign-in evidence so stale device review is less guessy.
+Entra ID can keep device objects long after the device is no longer meaningful. lapse cross-checks device timestamps against interactive sign-in evidence so stale device review is less dependent on guesswork.
 
 [View project](https://github.com/srkyn/lapse) | [Latest release](https://github.com/srkyn/lapse/releases/latest)
 
