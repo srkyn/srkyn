@@ -43,19 +43,19 @@ Scheduled jobs are easy to forget and often run with more privilege than people 
 
 Browser extensions sit close to sensitive user activity. Browser Bailiff reads installed extension manifests and highlights broad host access, risky permissions, age, and review reasons.
 
-[View project](https://github.com/srkyn/browser-bailiff) | [Latest release](https://github.com/srkyn/browser-bailiff/releases/latest)
+[View project](https://github.com/srkyn/browser-bailiff) | [Demo](https://github.com/srkyn/browser-bailiff/blob/main/docs/demo.md) | [Latest release](https://github.com/srkyn/browser-bailiff/releases/latest)
 
 ### lapse
 
 Entra ID can keep device objects long after the device is no longer meaningful. lapse cross-checks device timestamps against interactive sign-in evidence so stale device review is less dependent on guesswork.
 
-[View project](https://github.com/srkyn/lapse) | [Latest release](https://github.com/srkyn/lapse/releases/latest)
+[View project](https://github.com/srkyn/lapse) | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) | [Latest release](https://github.com/srkyn/lapse/releases/latest)
 
 ### relic
 
 Active Directory accumulates leftovers: disabled users with group memberships, service accounts with old passwords, and computer objects nobody owns. relic surfaces those objects for review over LDAP.
 
-[View project](https://github.com/srkyn/relic) | [Latest release](https://github.com/srkyn/relic/releases/latest)
+[View project](https://github.com/srkyn/relic) | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) | [Latest release](https://github.com/srkyn/relic/releases/latest)
 
 ## In Progress
 
