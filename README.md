@@ -13,6 +13,8 @@
   <a href="https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml"><img alt="browser-bailiff CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci"></a>
   <a href="https://github.com/srkyn/lapse/actions/workflows/ci.yml"><img alt="lapse CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/lapse/ci.yml?branch=main&style=flat-square&label=lapse+ci"></a>
   <a href="https://github.com/srkyn/relic/actions/workflows/ci.yml"><img alt="relic CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/relic/ci.yml?branch=main&style=flat-square&label=relic+ci"></a>
+  <a href="https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml"><img alt="splunk-detection-content validation" src="https://img.shields.io/github/actions/workflow/status/srkyn/splunk-detection-content/validate.yml?branch=main&style=flat-square&label=splunk+validation"></a>
+  <a href="https://github.com/srkyn/CuteBlock/actions/workflows/ci.yml"><img alt="CuteBlock CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/CuteBlock/ci.yml?branch=main&style=flat-square&label=cuteblock+ci"></a>
 </p>
 
 ## About
@@ -33,7 +35,7 @@ I try to keep the work practical: clear scope, readable output, reproducible che
 | [Browser Bailiff](https://github.com/srkyn/browser-bailiff) | Browser extension permission, host access, age, and review-reason auditor | [Demo](https://github.com/srkyn/browser-bailiff/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/browser-bailiff/releases/latest) |
 | [lapse](https://github.com/srkyn/lapse) | Entra ID stale-device review using device timestamps and sign-in evidence | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/lapse/releases/latest) |
 | [relic](https://github.com/srkyn/relic) | Active Directory hygiene review for stale users, service accounts, and computer objects | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/relic/releases/latest) |
-| [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections mapped to MITRE ATT&CK with analyst pivots and tuning notes | In progress |
+| [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections mapped to MITRE ATT&CK with analyst pivots and tuning notes | [Validation](https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml) |
 | [CuteBlock](https://github.com/srkyn/CuteBlock) | Manifest V3 extension that replaces likely ad slots with bundled local images | Side project |
 
 ## Contact
