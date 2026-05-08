@@ -17,15 +17,21 @@
 
 ## About
 
-I am focused on security operations, IAM, endpoint security, vulnerability management, and Splunk-driven investigation.
+I am focused on security operations, IAM, endpoint security, AI application security, vulnerability management, and Splunk-driven investigation.
 
 My path into security started with practical systems work: how networks route, how identities get exposed, how tools behave under pressure, and how small technical details create real impact. Embryology trained the other half of it: time-sensitive work, strict protocols, sensitive data, and staying useful when accuracy matters.
 
-The projects here are defensive. They look for neglected risk in the places operators actually touch: scheduled tasks, browser extensions, Entra ID devices, Active Directory objects, and a live OPNsense home firewall.
+The projects here are defensive. They look for neglected risk in the places operators actually touch: AI assistants, scheduled tasks, browser extensions, Entra ID devices, Active Directory objects, and a live OPNsense home firewall.
 
 I prefer small tools with clear output over big claims. If a finding cannot be explained, reviewed, and acted on, it adds noise instead of value.
 
 ## Featured Work
+
+### AI/LMS Security Assessment Case Study
+
+Sanitized writeup of an authorized AI assistant assessment in a learning-management environment. The public version focuses on tool access, prompt hierarchy, user context exposure, retrieval boundaries, and remediation themes without publishing target details or exploit strings.
+
+[View project](https://github.com/srkyn/ai-lms-security-case-study) | [LinkedIn-safe copy](https://github.com/srkyn/ai-lms-security-case-study/blob/main/LINKEDIN.md)
 
 ### Home Network Security
 
