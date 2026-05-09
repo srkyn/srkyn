@@ -5,7 +5,7 @@
 <h1 align="center">David Sarkisyan</h1>
 
 <p align="center">
-  Brooklyn-based cybersecurity analyst focused on evidence, defensive operations, and tools people can actually run.
+  New York City cybersecurity analyst focused on evidence, defensive operations, and tools people can actually run.
 </p>
 
 <p align="center">
@@ -29,14 +29,13 @@ I try to keep the work practical: clear scope, readable output, reproducible che
 
 | Project | Focus | Proof |
 |---|---|---|
+| [lapse](https://github.com/srkyn/lapse) | Entra ID stale-device review using device timestamps and sign-in evidence | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/lapse/releases/latest) |
 | [AI/LMS Security Assessment](https://github.com/srkyn/ai-lms-security-case-study) | AI assistant assessment, control review, remediation planning, redaction discipline | [LinkedIn copy](https://github.com/srkyn/ai-lms-security-case-study/blob/main/LINKEDIN.md) |
-| [Home Network Security](https://github.com/srkyn/home-network-security) | OPNsense firewall, DNSSEC, Quad9 DNS-over-TLS, DNS bypass blocking, CrowdSec | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
+| [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections mapped to MITRE ATT&CK with analyst pivots and tuning notes | [Validation](https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml) |
 | [Undertaker](https://github.com/srkyn/undertaker) | Read-only scheduled task auditor for cron, systemd timers, and Windows Scheduled Tasks | [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/undertaker/releases/latest) |
 | [Browser Bailiff](https://github.com/srkyn/browser-bailiff) | Browser extension permission, host access, age, and review-reason auditor | [Demo](https://github.com/srkyn/browser-bailiff/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/browser-bailiff/releases/latest) |
-| [lapse](https://github.com/srkyn/lapse) | Entra ID stale-device review using device timestamps and sign-in evidence | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/lapse/releases/latest) |
 | [relic](https://github.com/srkyn/relic) | Active Directory hygiene review for stale users, service accounts, and computer objects | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/relic/releases/latest) |
-| [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections mapped to MITRE ATT&CK with analyst pivots and tuning notes | [Validation](https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml) |
-| [CuteBlock](https://github.com/srkyn/CuteBlock) | Manifest V3 extension that replaces likely ad slots with bundled local images | Side project |
+| [Home Network Security](https://github.com/srkyn/home-network-security) | OPNsense firewall, DNSSEC, Quad9 DNS-over-TLS, DNS bypass blocking, CrowdSec | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
 
 ## Contact
 
