@@ -39,6 +39,8 @@ I keep the work practical: clear scope, readable output, reproducible checks, an
 
 ## Contact
 
+Portfolio: [srkyn.com](https://srkyn.com/)
+
 LinkedIn: [linkedin.com/in/srkyn](https://www.linkedin.com/in/srkyn/)
 
 David Sarkisyan · Cybersecurity Analyst · New York City · Built in Brooklyn
