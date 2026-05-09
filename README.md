@@ -5,7 +5,7 @@
 <h1 align="center">David Sarkisyan</h1>
 
 <p align="center">
-  New York City cybersecurity analyst focused on evidence, defensive operations, and tools people can actually run.
+  New York City cybersecurity analyst focused on evidence, defensive operations, and tools people can actually run. Built in Brooklyn.
 </p>
 
 <p align="center">
@@ -40,3 +40,5 @@ I try to keep the work practical: clear scope, readable output, reproducible che
 ## Contact
 
 LinkedIn: [linkedin.com/in/srkyn](https://www.linkedin.com/in/srkyn/)
+
+David Sarkisyan · Cybersecurity Analyst · New York City · Built in Brooklyn
