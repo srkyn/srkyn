@@ -23,19 +23,19 @@ I work across security operations, IAM, endpoint security, AI application securi
 
 My projects focus on neglected operational risk: AI assistants with too much authority, scheduled jobs nobody reviews, browser extensions with broad access, stale Entra ID devices, leftover Active Directory objects, and firewall controls that need documentation.
 
-I try to keep the work practical: clear scope, readable output, reproducible checks, and public writeups that avoid private data.
+I keep the work practical: clear scope, readable output, reproducible checks, and public writeups that avoid private data.
 
 ## Featured Work
 
-| Project | Focus | Proof |
+| Project | Focus | Artifact |
 |---|---|---|
 | [lapse](https://github.com/srkyn/lapse) | Entra ID stale-device review using device timestamps and sign-in evidence | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/lapse/releases/latest) |
-| [AI/LMS Security Assessment](https://github.com/srkyn/ai-lms-security-case-study) | AI assistant assessment, control review, remediation planning, redaction discipline | [LinkedIn copy](https://github.com/srkyn/ai-lms-security-case-study/blob/main/LINKEDIN.md) |
 | [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections mapped to MITRE ATT&CK with analyst pivots and tuning notes | [Validation](https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml) |
+| [relic](https://github.com/srkyn/relic) | Active Directory hygiene review for stale users, service accounts, and computer objects | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/relic/releases/latest) |
 | [Undertaker](https://github.com/srkyn/undertaker) | Read-only scheduled task auditor for cron, systemd timers, and Windows Scheduled Tasks | [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/undertaker/releases/latest) |
 | [Browser Bailiff](https://github.com/srkyn/browser-bailiff) | Browser extension permission, host access, age, and review-reason auditor | [Demo](https://github.com/srkyn/browser-bailiff/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/browser-bailiff/releases/latest) |
-| [relic](https://github.com/srkyn/relic) | Active Directory hygiene review for stale users, service accounts, and computer objects | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/relic/releases/latest) |
-| [Home Network Security](https://github.com/srkyn/home-network-security) | OPNsense firewall, DNSSEC, Quad9 DNS-over-TLS, DNS bypass blocking, CrowdSec | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
+| [AI/LMS Security Assessment](https://github.com/srkyn/ai-lms-security-case-study) | AI assistant assessment, control review, remediation planning, redaction discipline | [LinkedIn copy](https://github.com/srkyn/ai-lms-security-case-study/blob/main/LINKEDIN.md) |
+| [OPNsense Network Security Lab](https://github.com/srkyn/home-network-security) | Firewall intent, DNSSEC, Quad9 DNS-over-TLS, DNS bypass blocking, CrowdSec | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
 
 ## Contact
 
