@@ -19,9 +19,9 @@
 
 ## About
 
-I work across security operations, IAM, endpoint security, AI application security, vulnerability management, and Splunk-driven investigation.
+I work across security operations, IAM, endpoint security, network security, AI application security, vulnerability management, and Splunk-driven investigation.
 
-My projects focus on neglected operational risk: AI assistants with too much authority, scheduled jobs nobody reviews, browser extensions with broad access, stale Entra ID devices, leftover Active Directory objects, and firewall controls that need documentation.
+My projects focus on neglected operational risk: AI assistants with too much authority, scheduled jobs nobody reviews, browser extensions with broad access, stale Entra ID devices, leftover Active Directory objects, and home-network controls that need monitoring, logging, and documentation.
 
 I keep the work practical: clear scope, readable output, reproducible checks, and public writeups that avoid private data.
 
@@ -35,7 +35,7 @@ I keep the work practical: clear scope, readable output, reproducible checks, an
 | [Undertaker](https://github.com/srkyn/undertaker) | Read-only scheduled task auditor for cron, systemd timers, and Windows Scheduled Tasks | [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/undertaker/releases/latest) |
 | [Browser Bailiff](https://github.com/srkyn/browser-bailiff) | Browser extension permission, host access, age, and review-reason auditor | [Demo](https://github.com/srkyn/browser-bailiff/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/browser-bailiff/releases/latest) |
 | [AI/LMS Security Assessment](https://github.com/srkyn/ai-lms-security-case-study) | AI assistant assessment, control review, remediation planning, redaction discipline | [LinkedIn copy](https://github.com/srkyn/ai-lms-security-case-study/blob/main/LINKEDIN.md) |
-| [OPNsense Network Security Lab](https://github.com/srkyn/home-network-security) | Firewall intent, DNSSEC, Quad9 DNS-over-TLS, DNS bypass blocking, CrowdSec | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
+| [OPNsense + Proxmox Security Control Plane](https://github.com/srkyn/home-network-security) | Firewall intent, DNSSEC, Quad9 DNS-over-TLS, DNS bypass blocking, CrowdSec, Proxmox LXCs, VictoriaLogs, NetAlertX, OpenCanary, Uptime Kuma | [Proxmox writeup](https://github.com/srkyn/home-network-security/blob/main/docs/proxmox-security-control-plane.md) / [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
 
 ## Contact
 
