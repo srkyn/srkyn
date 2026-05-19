@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://github.com/srkyn/stigpilot/actions/workflows/tests.yml"><img alt="STIGPilot tests" src="https://img.shields.io/github/actions/workflow/status/srkyn/stigpilot/tests.yml?branch=main&style=flat-square&label=stigpilot+tests"></a>
   <a href="https://github.com/srkyn/lapse/actions/workflows/ci.yml"><img alt="lapse CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/lapse/ci.yml?branch=main&style=flat-square&label=lapse+ci"></a>
+  <a href="https://github.com/srkyn/IdentityRiskGraph/actions/workflows/python-tests.yml"><img alt="IdentityRiskGraph tests" src="https://img.shields.io/github/actions/workflow/status/srkyn/IdentityRiskGraph/python-tests.yml?branch=main&style=flat-square&label=identityriskgraph+tests"></a>
   <a href="https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml"><img alt="splunk-detection-content validation" src="https://img.shields.io/github/actions/workflow/status/srkyn/splunk-detection-content/validate.yml?branch=main&style=flat-square&label=splunk+validation"></a>
   <a href="https://github.com/srkyn/relic/actions/workflows/ci.yml"><img alt="relic CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/relic/ci.yml?branch=main&style=flat-square&label=relic+ci"></a>
   <a href="https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml"><img alt="browser-bailiff CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci"></a>
@@ -32,6 +33,7 @@ I keep the work practical: clear scope, readable output, reproducible checks, an
 | Project | Focus | Artifact |
 |---|---|---|
 | [STIGPilot](https://github.com/srkyn/stigpilot) | DISA STIG change triage, remediation backlog generation, evidence checklist planning, and ticket-ready exports | [Chrome demo](https://github.com/srkyn/stigpilot#real-world-chrome-demo) |
+| [IdentityRiskGraph](https://github.com/srkyn/IdentityRiskGraph) | Identity-first detection engineering for CloudTrail IAM events, nested access paths, MITRE-mapped findings, and explainable SOC risk scoring | [CloudTrail detector](https://github.com/srkyn/IdentityRiskGraph#terminal-cloudtrail-detector) / [Dashboard workflow](https://github.com/srkyn/IdentityRiskGraph#sample-investigation-workflow) |
 | [lapse](https://github.com/srkyn/lapse) | Entra ID stale-device review using device timestamps and sign-in evidence | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/lapse/releases/latest) |
 | [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections mapped to MITRE ATT&CK with analyst pivots and tuning notes | [Validation](https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml) |
 | [relic](https://github.com/srkyn/relic) | Active Directory hygiene review for stale users, service accounts, and computer objects | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) / [Release](https://github.com/srkyn/relic/releases/latest) |
