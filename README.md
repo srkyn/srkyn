@@ -26,6 +26,8 @@ My projects focus on operational risk that is easy to overlook: STIG changes tha
 
 Current Per Scholas lab work adds Cisco Packet Tracer network-defense practice across traffic flow, secure remote access, wireless hardening, ACLs, authentication, DNS, logs, and endpoint fundamentals.
 
+I also stay connected to the OWASP and ISC2 communities while building practical defensive-security work.
+
 I keep the work practical: clear scope, readable output, reproducible checks, and public notes that avoid private data.
 
 ## Featured Work
