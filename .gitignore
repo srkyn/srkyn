@@ -1,0 +1,4 @@
+.cloudflare-pages-deploy/
+.wrangler/
+node_modules/
+audit/

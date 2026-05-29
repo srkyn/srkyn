@@ -1,0 +1,68 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">David Sarkisyan cybersecurity profile banner</title>
+  <desc id="desc">Minimal Brooklyn-inspired cybersecurity banner with skyline linework, network traces, and security operations positioning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="0.52" stop-color="#07111d"/>
+      <stop offset="1" stop-color="#090a0f"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="180" y1="0" x2="1080" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2f6fed"/>
+      <stop offset="0.58" stop-color="#f2b84b"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0V40H0" stroke="#f8fafc" stroke-opacity="0.035"/>
+      <circle cx="14" cy="17" r="1" fill="#f8fafc" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)" opacity="0.55"/>
+
+  <g opacity="0.2" stroke="#d8dee7" stroke-width="1.6" fill="none">
+    <path d="M760 258C855 155 952 94 1086 66C1146 53 1195 52 1254 59"/>
+    <path d="M766 258C876 194 968 162 1108 154C1160 151 1210 154 1268 164"/>
+    <path d="M826 126V262"/>
+    <path d="M866 105V262"/>
+    <path d="M906 87V262"/>
+    <path d="M946 75V262"/>
+    <path d="M986 64V262"/>
+    <path d="M1026 58V262"/>
+    <path d="M1066 57V262"/>
+  </g>
+
+  <g opacity="0.16" stroke="#2f6fed" stroke-width="2" fill="none">
+    <path d="M76 228H218"/>
+    <path d="M76 250H174"/>
+    <path d="M76 206H262"/>
+    <path d="M120 116H224"/>
+    <path d="M148 116V248"/>
+    <path d="M192 116V268"/>
+  </g>
+
+  <g transform="translate(108 102)">
+    <path d="M0 0H124" stroke="#2f6fed" stroke-width="3"/>
+    <path d="M0 34H74" stroke="#f2b84b" stroke-width="3"/>
+    <path d="M0 68H104" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="142" cy="0" r="8" fill="#2f6fed"/>
+    <circle cx="92" cy="34" r="8" fill="#f2b84b"/>
+    <circle cx="122" cy="68" r="8" fill="#2dd4bf"/>
+  </g>
+
+  <g transform="translate(328 78)">
+    <text x="0" y="0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="7" fill="#59a6ff">BROOKLYN, NY</text>
+    <text x="0" y="58" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900" letter-spacing="5" fill="#f8fafc">DAVID SARKISYAN</text>
+    <rect x="0" y="79" width="480" height="3" fill="url(#scan)"/>
+    <text x="0" y="121" font-family="Inter, Arial, sans-serif" font-size="23" fill="#d8dee7">Cybersecurity Analyst · CySA+ · Splunk Core User</text>
+    <text x="0" y="156" font-family="Inter, Arial, sans-serif" font-size="20" fill="#9aa7b7">SOC · IAM · Endpoint Security · Defensive Tooling</text>
+  </g>
+
+  <g transform="translate(328 265)">
+    <circle cx="0" cy="0" r="7" fill="#2f6fed"/>
+    <circle cx="28" cy="0" r="7" fill="#f2b84b"/>
+    <circle cx="56" cy="0" r="7" fill="#2dd4bf"/>
+    <text x="86" y="6" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="3" fill="#f8fafc">CALM INVESTIGATION · CLEAN EVIDENCE · PRACTICAL DEFENSE</text>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+Contact: mailto:contact@srkyn.com
+Preferred-Languages: en
+Canonical: https://srkyn.com/.well-known/security.txt
+Policy: https://srkyn.com/
+Hiring: https://srkyn.com/
