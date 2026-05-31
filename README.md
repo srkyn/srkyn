@@ -23,9 +23,9 @@ New York City. Defensive security tools and detection logic for IAM, endpoint, a
 
 ## Proof Points
 
-- Published STIGPilot to PyPI with trusted publishing from GitHub Actions.
-- Opened an upstream contribution to Elastic detection-rules for filter-only KQL custom rule exports.
-- Maintained public releases across the main portfolio projects instead of leaving repos as loose drafts.
+- Published [STIGPilot on PyPI](https://pypi.org/project/stigpilot/) with trusted publishing from [GitHub Actions](https://github.com/srkyn/stigpilot/actions/workflows/publish.yml).
+- Opened an upstream [Elastic detection-rules contribution](https://github.com/elastic/detection-rules/pull/6180) for filter-only KQL custom rule exports.
+- Maintained public releases across the main portfolio projects, including [STIGPilot](https://github.com/srkyn/stigpilot/releases/latest), [home-network-security](https://github.com/srkyn/home-network-security/releases/latest), and [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content/releases/latest).
 - Built each project around defensive, read-only, or public-safe workflows with clear disclosure boundaries.
 
 ---
