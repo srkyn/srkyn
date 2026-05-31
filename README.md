@@ -2,7 +2,7 @@
 
 # David Sarkisyan
 
-New York City cybersecurity analyst building security tools, detections, identity hygiene, and network defense. I came through healthcare IT, systems administration, and embryology — environments where small mistakes matter, documentation has to be clean, and calm handoff under pressure is part of the job. That background shapes how I approach security work.
+New York City cybersecurity analyst building security tools, detections, identity hygiene, and network defense. I came through healthcare IT, systems administration, and embryology. Environments where small mistakes matter, documentation has to be clean, and calm handoff under pressure is part of the job. That background shapes how I approach security work.
 
 [![STIGPilot tests](https://img.shields.io/github/actions/workflow/status/srkyn/stigpilot/tests.yml?branch=main&style=flat-square&label=stigpilot+tests)](https://github.com/srkyn/stigpilot/actions/workflows/tests.yml) [![lapse CI](https://img.shields.io/github/actions/workflow/status/srkyn/lapse/ci.yml?branch=main&style=flat-square&label=lapse+ci)](https://github.com/srkyn/lapse/actions/workflows/ci.yml) [![IdentityRiskGraph tests](https://img.shields.io/github/actions/workflow/status/srkyn/IdentityRiskGraph/python-tests.yml?branch=main&style=flat-square&label=identityriskgraph+tests)](https://github.com/srkyn/IdentityRiskGraph/actions/workflows/python-tests.yml) [![splunk-detection-content validation](https://img.shields.io/github/actions/workflow/status/srkyn/splunk-detection-content/validate.yml?branch=main&style=flat-square&label=splunk+validation)](https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml) [![relic CI](https://img.shields.io/github/actions/workflow/status/srkyn/relic/ci.yml?branch=main&style=flat-square&label=relic+ci)](https://github.com/srkyn/relic/actions/workflows/ci.yml) [![browser-bailiff CI](https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci)](https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml) [![undertaker CI](https://img.shields.io/github/actions/workflow/status/srkyn/undertaker/ci.yml?branch=main&style=flat-square&label=undertaker+ci)](https://github.com/srkyn/undertaker/actions/workflows/ci.yml)
 
@@ -10,7 +10,7 @@ New York City cybersecurity analyst building security tools, detections, identit
 
 I focus on the operational security work that is easy to overlook: STIG changes that need triage, stale Entra ID devices, leftover Active Directory objects, scheduled jobs nobody reviews, browser extensions with broad access, detections that need tuning context, and network controls that need monitoring and documentation.
 
-My tools are built from a practical question — what would make this work less painful for the person doing it? The answer is usually not another viewer or scanner. It is a fast local helper that turns a dense input into a short brief, a backlog, and something people can actually act on.
+My tools are built from a practical question; what would make this work less painful for the person doing it? The answer is usually not another viewer or scanner. It is a fast local helper that turns a dense input into a short brief, a backlog, and something people can actually act on.
 
 Current focus: detection engineering, SOC operations, IAM hygiene, and security automation.
 
