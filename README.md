@@ -2,7 +2,9 @@
 
 # David Sarkisyan
 
-New York City. Defensive security tools and detection logic for IAM, endpoint, and SOC workflows. All work is read-only, evidence-first, and publicly reproducible.
+New York City cybersecurity analyst building defensive tools, detection logic, and practical notes for IAM, endpoint, SOC, compliance, and network-defense work.
+
+Most of what I build starts with the same question: what annoying security workflow could be made clearer, safer, or easier for the next analyst?
 
 <p align="center">
   <a href="https://github.com/srkyn/stigpilot/actions/workflows/tests.yml"><img alt="STIGPilot tests" src="https://img.shields.io/github/actions/workflow/status/srkyn/stigpilot/tests.yml?branch=main&style=flat-square&label=stigpilot+tests"></a>
@@ -23,10 +25,10 @@ New York City. Defensive security tools and detection logic for IAM, endpoint, a
 
 ## Proof Points
 
-- Published [STIGPilot on PyPI](https://pypi.org/project/stigpilot/) with trusted publishing from [GitHub Actions](https://github.com/srkyn/stigpilot/actions/workflows/publish.yml).
-- Opened an upstream [Elastic detection-rules contribution](https://github.com/elastic/detection-rules/pull/6180) for filter-only KQL custom rule exports.
-- Maintained public releases across the main portfolio projects, including [STIGPilot](https://github.com/srkyn/stigpilot/releases/latest), [home-network-security](https://github.com/srkyn/home-network-security/releases/latest), and [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content/releases/latest).
-- Built each project around defensive, read-only, or public-safe workflows with clear disclosure boundaries.
+- Shipped [STIGPilot on PyPI](https://pypi.org/project/stigpilot/) using trusted publishing from [GitHub Actions](https://github.com/srkyn/stigpilot/actions/workflows/publish.yml), so releases are reproducible and token-free.
+- Opened an upstream [Elastic detection-rules contribution](https://github.com/elastic/detection-rules/pull/6180) after running into a real filter-only KQL export edge case.
+- Keep public releases on the main portfolio projects, including [STIGPilot](https://github.com/srkyn/stigpilot/releases/latest), [home-network-security](https://github.com/srkyn/home-network-security/releases/latest), and [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content/releases/latest).
+- Keep the public work defensive, read-only, or sanitized, with clear boundaries around private systems and sensitive data.
 
 ---
 
@@ -34,21 +36,21 @@ New York City. Defensive security tools and detection logic for IAM, endpoint, a
 
 | Project | Focus | Artifact |
 |---|---|---|
-| [STIGPilot](https://github.com/srkyn/stigpilot) | DISA STIG change triage, remediation backlog generation, evidence checklists, ticket-ready exports, PowerShell government mode | [Chrome demo](https://github.com/srkyn/stigpilot#real-world-chrome-demo) |
-| [IdentityRiskGraph](https://github.com/srkyn/IdentityRiskGraph) | CloudTrail IAM event detection, nested access path resolution, MITRE-mapped findings, Streamlit investigation dashboard | [Screenshots](https://github.com/srkyn/IdentityRiskGraph/tree/main/screenshots) |
-| [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections mapped to MITRE ATT&CK with tuning notes, false-positive paths, and triage playbooks | [Playbooks](https://github.com/srkyn/splunk-detection-content/tree/main/playbooks) |
-| [lapse](https://github.com/srkyn/lapse) | Entra ID stale-device review using interactive sign-in evidence to eliminate false positives from background sync | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) |
-| [relic](https://github.com/srkyn/relic) | Active Directory hygiene review for stale users, service accounts, disabled-but-still-membered accounts, and non-expiring passwords | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) |
-| [ai-lms-security-case-study](https://github.com/srkyn/ai-lms-security-case-study) | Authorized assessment case study: access boundaries, control review, remediation paths, and redaction discipline | [Control matrix](https://github.com/srkyn/ai-lms-security-case-study/blob/main/docs/control-matrix.md) |
-| [undertaker](https://github.com/srkyn/undertaker) | Read-only scheduled task auditor for cron, systemd timers, and Windows Scheduled Tasks | [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) |
-| [browser-bailiff](https://github.com/srkyn/browser-bailiff) | Browser extension permission, host access, age, and review-reason auditor for Chrome, Edge, and Firefox | [Demo](https://github.com/srkyn/browser-bailiff/blob/main/docs/demo.md) |
-| [home-network-security](https://github.com/srkyn/home-network-security) | Sanitized OPNsense and Proxmox home network security control plane: firewall policy, DNS security, CrowdSec, logs, canary alerts | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
+| [STIGPilot](https://github.com/srkyn/stigpilot) | Helps turn DISA STIG updates into change briefs, evidence requests, remediation backlogs, and ticket exports. Includes a PowerShell government mode for locked-down Windows environments. | [Chrome demo](https://github.com/srkyn/stigpilot#real-world-chrome-demo) |
+| [IdentityRiskGraph](https://github.com/srkyn/IdentityRiskGraph) | Looks at CloudTrail IAM activity as an investigation graph, so nested access paths and risky identity behavior are easier to explain. | [Screenshots](https://github.com/srkyn/IdentityRiskGraph/tree/main/screenshots) |
+| [Splunk Detection Content](https://github.com/srkyn/splunk-detection-content) | SPL detections written like analyst notes: ATT&CK mapping, field assumptions, tuning ideas, false-positive paths, and triage steps. | [Playbooks](https://github.com/srkyn/splunk-detection-content/tree/main/playbooks) |
+| [lapse](https://github.com/srkyn/lapse) | Reviews stale Entra ID devices with sign-in evidence, because device cleanup gets noisy fast if you only trust sync timestamps. | [Demo](https://github.com/srkyn/lapse/blob/main/docs/demo.md) |
+| [relic](https://github.com/srkyn/relic) | Finds the Active Directory leftovers people forget about: stale users, old service accounts, disabled accounts still in groups, and non-expiring passwords. | [Demo](https://github.com/srkyn/relic/blob/main/docs/demo.md) |
+| [ai-lms-security-case-study](https://github.com/srkyn/ai-lms-security-case-study) | Public-safe writeup from an authorized AI/LMS assessment, focused on scope, control questions, remediation patterns, and redaction discipline. | [Control matrix](https://github.com/srkyn/ai-lms-security-case-study/blob/main/docs/control-matrix.md) |
+| [undertaker](https://github.com/srkyn/undertaker) | Read-only review for scheduled jobs across cron, systemd timers, and Windows Scheduled Tasks. The point is to find forgotten automation before it becomes a security blind spot. | [Demo](https://github.com/srkyn/undertaker/blob/main/docs/demo.md) |
+| [browser-bailiff](https://github.com/srkyn/browser-bailiff) | Audits browser extensions for broad permissions, host access, age, and review reasons across Chrome, Edge, and Firefox. | [Demo](https://github.com/srkyn/browser-bailiff/blob/main/docs/demo.md) |
+| [home-network-security](https://github.com/srkyn/home-network-security) | Sanitized notes from my OPNsense and Proxmox security control plane: firewall intent, DNS security, CrowdSec, logs, canary alerts, and monitoring. | [Design rationale](https://github.com/srkyn/home-network-security/blob/main/docs/design-rationale.md) |
 
 ---
 
 ## What the tools cover together
 
-STIGPilot handles compliance change triage. lapse and relic handle identity hygiene across Entra ID and on-premises Active Directory. IdentityRiskGraph and splunk-detection-content handle detection logic and SOC investigation workflows. undertaker and browser-bailiff handle scheduled job and browser extension risk review. home-network-security documents a production-style OPNsense and Proxmox home network security control plane.
+The projects fit together on purpose. STIGPilot handles compliance change triage. lapse and relic cover identity hygiene across Entra ID and on-prem Active Directory. IdentityRiskGraph and Splunk Detection Content focus on detection and investigation. undertaker and browser-bailiff look for overlooked endpoint risk. home-network-security shows how I document and operate a real defensive lab without exposing private details.
 
 ---
 
