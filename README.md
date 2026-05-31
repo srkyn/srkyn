@@ -4,7 +4,12 @@
 
 New York City. Defensive security tools and detection logic for IAM, endpoint, and SOC workflows. All work is read-only, evidence-first, and publicly reproducible.
 
-[![STIGPilot tests](https://img.shields.io/github/actions/workflow/status/srkyn/stigpilot/tests.yml?branch=main&style=flat-square&label=stigpilot+tests)](https://github.com/srkyn/stigpilot/actions/workflows/tests.yml) [![lapse CI](https://img.shields.io/github/actions/workflow/status/srkyn/lapse/ci.yml?branch=main&style=flat-square&label=lapse+ci)](https://github.com/srkyn/lapse/actions/workflows/ci.yml) [![IdentityRiskGraph tests](https://img.shields.io/github/actions/workflow/status/srkyn/IdentityRiskGraph/python-tests.yml?branch=main&style=flat-square&label=identityriskgraph+tests)](https://github.com/srkyn/IdentityRiskGraph/actions/workflows/python-tests.yml) [![splunk-detection-content validation](https://img.shields.io/github/actions/workflow/status/srkyn/splunk-detection-content/validate.yml?branch=main&style=flat-square&label=splunk+validation)](https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml) [![relic CI](https://img.shields.io/github/actions/workflow/status/srkyn/relic/ci.yml?branch=main&style=flat-square&label=relic+ci)](https://github.com/srkyn/relic/actions/workflows/ci.yml) [![browser-bailiff CI](https://img.shields.io/github/actions/workflow/status/srkyn/browser-bailiff/ci.yml?branch=main&style=flat-square&label=browser-bailiff+ci)](https://github.com/srkyn/browser-bailiff/actions/workflows/ci.yml) [![undertaker CI](https://img.shields.io/github/actions/workflow/status/srkyn/undertaker/ci.yml?branch=main&style=flat-square&label=undertaker+ci)](https://github.com/srkyn/undertaker/actions/workflows/ci.yml)
+<p align="center">
+  <a href="https://github.com/srkyn/stigpilot/actions/workflows/tests.yml"><img alt="STIGPilot tests" src="https://img.shields.io/github/actions/workflow/status/srkyn/stigpilot/tests.yml?branch=main&style=flat-square&label=stigpilot+tests"></a>
+  <a href="https://github.com/srkyn/splunk-detection-content/actions/workflows/validate.yml"><img alt="splunk-detection-content validation" src="https://img.shields.io/github/actions/workflow/status/srkyn/splunk-detection-content/validate.yml?branch=main&style=flat-square&label=splunk+validation"></a>
+  <a href="https://github.com/srkyn/relic/actions/workflows/ci.yml"><img alt="relic CI" src="https://img.shields.io/github/actions/workflow/status/srkyn/relic/ci.yml?branch=main&style=flat-square&label=relic+ci"></a>
+  <a href="https://pypi.org/project/stigpilot/"><img alt="STIGPilot on PyPI" src="https://img.shields.io/pypi/v/stigpilot?style=flat-square&label=stigpilot+pypi"></a>
+</p>
 
 ---
 
@@ -13,6 +18,15 @@ New York City. Defensive security tools and detection logic for IAM, endpoint, a
 - CySA+ certified · Splunk Core User
 - TryHackMe top 1% · 120+ rooms · SOC, SIEM, EDR, Splunk, Wireshark, phishing analysis, Linux, network defense · [Profile](https://tryhackme.com/p/srkyn)
 - OWASP and ISC2 community member
+
+---
+
+## Proof Points
+
+- Published STIGPilot to PyPI with trusted publishing from GitHub Actions.
+- Opened an upstream contribution to Elastic detection-rules for filter-only KQL custom rule exports.
+- Maintained public releases across the main portfolio projects instead of leaving repos as loose drafts.
+- Built each project around defensive, read-only, or public-safe workflows with clear disclosure boundaries.
 
 ---
 
