@@ -23,10 +23,10 @@ Current focus: detection engineering, SOC operations, IAM hygiene, and security 
 | Area | Evidence |
 | --- | --- |
 | Published tool | [STIGPilot](https://pypi.org/project/stigpilot/) on PyPI with a public [source repository](https://github.com/srkyn/stigpilot) |
-| Detection contribution | [splunk/security_content PR #4117](https://github.com/splunk/security_content/pull/4117), approved and merged |
-| Detection-as-Code contribution | [elastic/detection-rules PR #6253](https://github.com/elastic/detection-rules/pull/6253), open for filter-only KQL custom rule exports |
-| Sigma contribution | [SigmaHQ/sigma PR #6038](https://github.com/SigmaHQ/sigma/pull/6038), open for eventlog clear filter-scope fix |
-| LLM security contribution | [SasanLabs/LLMForge PR #22](https://github.com/SasanLabs/LLMForge/pull/22), open for indirect prompt injection payload hints |
+| Detection-as-Code | [elastic/detection-rules PR #6253](https://github.com/elastic/detection-rules/pull/6253), filter-only KQL custom-rule export fix (open) |
+| Sigma rules | [SigmaHQ/sigma PR #6038](https://github.com/SigmaHQ/sigma/pull/6038), eventlog-clear filter-scope fix (open) |
+| LLM security | [SasanLabs/LLMForge PR #22](https://github.com/SasanLabs/LLMForge/pull/22), indirect prompt-injection payload hints (open) |
+| Upstream maintenance | [splunk/security_content PR #4117](https://github.com/splunk/security_content/pull/4117), documentation fix, merged |
 | Portfolio | [srkyn.com](https://srkyn.com/) with work archive, case studies, local browser lab, changelog, and security contact file |
 
 ## Featured Work
