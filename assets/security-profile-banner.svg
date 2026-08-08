@@ -1,6 +1,6 @@
 <svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">David Sarkisyan cybersecurity profile banner</title>
-  <desc id="desc">Minimal Brooklyn-inspired cybersecurity banner with evidence linework, signal traces, and defensive security positioning.</desc>
+  <desc id="desc">Minimal Brooklyn-inspired security research banner with assessment linework and signal traces.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#061C2B"/>
@@ -55,14 +55,14 @@
     <text x="0" y="0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="7" fill="#66D7D0">BROOKLYN, NY</text>
     <text x="0" y="58" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900" letter-spacing="5" fill="#F8FAF6">DAVID SARKISYAN</text>
     <rect x="0" y="79" width="480" height="3" fill="url(#scan)"/>
-    <text x="0" y="121" font-family="Inter, Arial, sans-serif" font-size="23" fill="#DCE9E7">Cybersecurity Analyst · SOC · IAM · Endpoint Review</text>
-    <text x="0" y="156" font-family="Inter, Arial, sans-serif" font-size="20" fill="#B7CBC8">One signal is not evidence.</text>
+    <text x="0" y="121" font-family="Inter, Arial, sans-serif" font-size="23" fill="#DCE9E7">Security Research · AppSec · Penetration Testing</text>
+    <text x="0" y="156" font-family="Inter, Arial, sans-serif" font-size="20" fill="#B7CBC8">Test the path, then explain it.</text>
   </g>
 
   <g transform="translate(328 265)">
     <circle cx="0" cy="0" r="7" fill="#7F9F8B"/>
     <circle cx="28" cy="0" r="7" fill="#D9B66E"/>
     <circle cx="56" cy="0" r="7" fill="#66D7D0"/>
-    <text x="86" y="6" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="3" fill="#F8FAF6">CALM INVESTIGATION · CLEAN EVIDENCE · PRACTICAL DEFENSE</text>
+    <text x="86" y="6" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="3" fill="#F8FAF6">AUTHORIZED TESTING · FINDINGS ANOTHER ANALYST CAN VERIFY</text>
   </g>
 </svg>
