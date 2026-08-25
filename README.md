@@ -50,6 +50,6 @@ Affiliations: OWASP Foundation Individual Member · ISC2 Member
 
 ## Contact
 
-Website: [srkyn.com](https://srkyn.com/) · Email: contact [at] srkyn.com · LinkedIn: [linkedin.com/in/srkyn](https://www.linkedin.com/in/srkyn/)
+Website: [srkyn.com](https://srkyn.com/) · Email: david [at] srkyn.com · LinkedIn: [linkedin.com/in/srkyn](https://www.linkedin.com/in/srkyn/)
 
 *David Sarkisyan · Security Research · Vulnerability Assessment · New York City*
