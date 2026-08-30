@@ -12,7 +12,7 @@ I work from the attacker side in authorized labs and assessments, then turn the 
 
 My current work centers on reproducing unexpected behavior, tracing it to the smallest defensible root cause, and building regression coverage around the fix. Recent work spans C and Go systems projects, sandbox hardening, detection content, an authorized AI/LMS assessment, and a five-person Linux vulnerability assessment.
 
-My open-source work includes merged fixes in libavif, liburing, libcap, OWASP Nettacker, Atomic Red Team, Nuclei Templates, SigmaHQ, Splunk Security Content, and ActionScope. I like focused security-logic problems where a small change improves the accuracy or safety of a tool people already use.
+My open-source work includes merged fixes in Google nsjail, libavif, liburing, libcap, OWASP Nettacker, Atomic Red Team, Nuclei Templates, SigmaHQ, Splunk Security Content, and ActionScope. I like focused security-logic problems where a small change improves the accuracy or safety of a tool people already use.
 
 ## Current Public Proof
 
@@ -21,8 +21,10 @@ My open-source work includes merged fixes in libavif, liburing, libcap, OWASP Ne
 | Decoder state safety | Two merged libavif fixes: [PR #3327](https://github.com/AOMediaCodec/libavif/pull/3327) added regression coverage for stale Sample Transform state, and [PR #3333](https://github.com/AOMediaCodec/libavif/pull/3333) completed the reset invariant |
 | Kernel interface behavior | [liburing PR #1628](https://github.com/axboe/liburing/pull/1628), reproduced an unsupported registered-wait path and moved the feature check before pending work could be published, merged |
 | Linux capabilities | [libcap commit e435fc5](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=e435fc5d5d4d246c60c23650b923d594aa17bfeb), corrected a Go file-capability encoding invariant with focused tests, merged |
-| Sandbox hardening | [nsjail PR #299](https://github.com/google/nsjail/pull/299), closes a parent-death-signal setup race with a deterministic differential probe, under review |
+| Sandbox hardening | Two merged Google nsjail fixes: [PR #286](https://github.com/google/nsjail/pull/286) stops setup when `PR_SET_NO_NEW_PRIVS` fails, and [PR #299](https://github.com/google/nsjail/pull/299) closes a parent-death-signal setup race |
+| Parser performance | [IANA tz commit 01b367f](https://github.com/eggert/tz/commit/01b367f1511108c8dedfcd036dbffebf58616ada) credits my report and reduced the exact far-future TZif case from about 3.1 seconds to under 0.2 milliseconds |
 | Filesystem permissions | [libzip PR #561](https://github.com/nih-at/libzip/pull/561), preserves POSIX ACLs across archive replacement with regression and sanitizer validation, under review |
+| Active upstream reviews | Focused fixes in [Dovecot SASL](https://github.com/dovecot/core/pull/310), [Protobuf upb](https://github.com/protocolbuffers/protobuf/pull/29514), and [Bazel Remote APIs](https://github.com/bazelbuild/remote-apis-sdks/pull/664), each submitted with regression and stress-test evidence |
 | OWASP project | [Nettacker PR #1659](https://github.com/OWASP/Nettacker/pull/1659), synchronized 59 missing Russian locale messages and preserved every format placeholder, merged |
 | Detection and emulation | Merged fixes across [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team/pull/3354), [SigmaHQ](https://github.com/SigmaHQ/sigma/pull/6038), [Splunk Security Content](https://github.com/splunk/security_content/pulls?q=is%3Apr+author%3Asrkyn+is%3Amerged), and [Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates/pull/16344) |
 | Published tool | [STIGPilot](https://pypi.org/project/stigpilot/) on PyPI with public [source](https://github.com/srkyn/stigpilot) |
