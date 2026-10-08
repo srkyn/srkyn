@@ -12,12 +12,15 @@ I work from the attacker side in authorized labs and assessments, then turn the 
 
 My current work centers on reproducing unexpected behavior, tracing it to the smallest defensible root cause, and building regression coverage around the fix. Recent work spans C and Go systems projects, sandbox hardening, detection content, an authorized AI/LMS assessment, and a five-person Linux vulnerability assessment.
 
-My open-source work includes merged fixes in Google nsjail, libavif, liburing, libcap, OWASP Nettacker, Atomic Red Team, Nuclei Templates, SigmaHQ, Splunk Security Content, and ActionScope. I like focused security-logic problems where a small change improves the accuracy or safety of a tool people already use.
+My open-source work includes merged fixes in Mozilla Neqo, Google nsjail, libavif, liburing, libcap, OWASP Nettacker, Atomic Red Team, Nuclei Templates, SigmaHQ, Splunk Security Content, and ActionScope. I like focused security-logic problems where a small change improves the accuracy or safety of a tool people already use.
 
 ## Current Public Proof
 
 | Area | Evidence |
 | --- | --- |
+| Angular vulnerability | Discovered and reported Windows path traversal in `CommonEngine`: [CVE-2026-104871 / GHSA-7g7c-h8rr-7p6q](https://github.com/angular/angular-cli/security/advisories/GHSA-7g7c-h8rr-7p6q). Credited as Reporter; fixes released |
+| rrweb vulnerability | Discovered and reported cross-origin canvas streaming without recording opt-in: [GHSA-xjgr-f74v-fx5m](https://github.com/rrweb-io/rrweb/security/advisories/GHSA-xjgr-f74v-fx5m). Credited as Finder; fixes released |
+| HTTP/3 protocol handling | [Mozilla Neqo PR #3940](https://github.com/mozilla/neqo/pull/3940), rejects an extended CONNECT setting downgrade during 0-RTT connection resumption, with a regression test; merged |
 | Decoder state safety | Two merged libavif fixes: [PR #3327](https://github.com/AOMediaCodec/libavif/pull/3327) added regression coverage for stale Sample Transform state, and [PR #3333](https://github.com/AOMediaCodec/libavif/pull/3333) completed the reset invariant |
 | Kernel interface behavior | [liburing PR #1628](https://github.com/axboe/liburing/pull/1628), reproduced an unsupported registered-wait path and moved the feature check before pending work could be published, merged |
 | Linux capabilities | [libcap commit e435fc5](https://git.kernel.org/pub/scm/libs/libcap/libcap.git/commit/?id=e435fc5d5d4d246c60c23650b923d594aa17bfeb), corrected a Go file-capability encoding invariant with focused tests, merged |
